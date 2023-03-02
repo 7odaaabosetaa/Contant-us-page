@@ -31,6 +31,7 @@ header{
 header i{
     font-size: 25px;
     color: var(--main-color);
+    display: none;
 }
 header img{
     max-height: 75px;
@@ -214,6 +215,9 @@ header ul li.contact a{
         background-color: #fff;
         border-radius: 7px;
         display: none;
+    }
+    header i{
+        display : block;
     }
     header ul li{
         margin: 0;
